@@ -5,7 +5,7 @@ function BandInfoCard({ band }) {
   const { band_name, fans, formed, origin, split, style } = band;
 
   return (
-    <article className="bg-neutral-800 text-white w-full border border-neutral-400 py-7 px-5 flex flex-col gap-y-4">
+    <article className="bg-neutral-800 text-white w-full border border-neutral-400 py-7 px-5 max-w-[500px] flex flex-col gap-y-4">
       <h2 className="text-3xl font-bold">{band_name}</h2>
       <p>
         <strong>Orgin: </strong> <span>{origin}</span> <strong>Fans: </strong>{' '}

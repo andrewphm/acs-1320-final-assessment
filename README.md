@@ -1,11 +1,9 @@
 <div align="center">
 
-## Andrew Pham
+## ACS-1320 Final Assessment
 
-## Final Assessment
+## [Link to live](https://andrewpham.ca/acs-1320-final-assessment/)
 
-## ACS-1320
-
-## [Link to live](!https://andrewpham.ca/acs-1320-final-assessment/)
+<img src="./preview.png" height="300">
 
 </div>

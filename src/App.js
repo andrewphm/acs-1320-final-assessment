@@ -12,9 +12,11 @@ function App() {
   return (
     <div className="bg-[#282c34] min-w-screen min-h-screen">
       <header className="flex  pt-3 flex-col items-center">
-        <Heading />
-        <MetalMeta />
-        <Search setBands={setBands} />
+        <section>
+          <Heading />
+          <MetalMeta />
+          <Search setBands={setBands} />
+        </section>
       </header>
       <main className="w-full h-full py-8 px-20">
         <BandList bands={bands} />
